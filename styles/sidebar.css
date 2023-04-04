@@ -1,0 +1,40 @@
+.sidebar{
+    position: fixed;
+    left: 0;
+    width: 72px;
+    bottom: 0;
+    top:57.8px;  
+    background-color: white;
+    display: flex;   
+    flex-direction: column; 
+    z-index: 200;
+    padding-top: 5px;    
+    justify-content: space-evenly;
+    
+    
+}
+
+.sidebardiv{
+    display: flex;    
+    flex-direction: column;
+    height: 74px;
+    width: 72px;
+    justify-content: center;
+    align-items: center;
+    font-family: Roboto;
+    font-size: 12px;
+}
+.sidebardiv img{
+    width: 24px;
+    height: 24px;
+    margin-bottom: 5px;
+}
+.buttons{
+background-color: white;
+border: none;
+padding: 0px;
+}
+.buttons:hover{
+    cursor: pointer;
+    background-color: rgb(235,235,235);
+}

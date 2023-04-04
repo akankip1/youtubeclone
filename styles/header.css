@@ -1,0 +1,138 @@
+.header{
+    /* height: 55px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    background-color: white;
+    border-bottom-width:1px;
+    border-bottom-color: rgb(240,240,240);
+    border-style: solid; */
+    display: flex;
+    height: 57px;
+    border-bottom: 1px solid #dedede;
+    border-bottom-width: 1px;
+    border-bottom-style: solid;
+    border-bottom-color: rgb(222, 222, 222);
+    margin-bottom: 20px;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    background-color: white;
+    z-index: 100;
+
+}
+
+.left{
+    
+    display: flex;    
+    align-items: center;
+}
+.ham{
+    height: 24px;
+    width: 24px;
+    margin-left: 24px;
+    margin-right: 24px;
+}
+.ytlogo{
+    width: 97px;
+}
+.middle{
+    display: flex;
+    margin-left: 70px;
+    margin-right: 35px;    
+    flex: 1;
+    max-width: 500px;
+    align-items: center;
+}
+.search{
+    align-items: center;
+}
+.search-button{
+    width: 54px;
+    height: 40px;
+    background-color: rgb(240,240,240);
+    border-color: rgb(192, 192, 192);     
+    border-width: 1px;
+    border-style: solid;
+    margin-left: -1px;
+    margin-right: 10px;
+    
+}
+.voice{
+    display: flex;
+    height: 40px;
+    width: 40px;
+    align-items: center;
+    border: none;
+    border-radius: 20px;
+    background-color: rgb(240,240,240);
+}
+.voiceimg{
+    height:25px;
+    margin-left: 1.5px;
+}
+.right{
+    display: flex;
+    align-items: center;
+    width: 156px;
+    height: 40px;
+    justify-content: space-between;
+    margin-right: 24px;
+    
+    
+}
+.style{
+    display: flex;
+    background-color: white;
+    border: none;
+}
+.styleimg{
+    width: 24px;
+    height: 24px;
+}
+.notification{
+    display: flex;
+    background-color: white;
+    border: none;
+}
+.notificationimg{
+    width: 24px;
+    height: 24px;
+}
+.profile{
+    height: 34px;
+    width: 60px;
+    border: none;
+    background-color: white;
+    
+}
+.profileimg{
+    height: 32px;
+    width: 32px;
+    border-radius: 16px;
+}
+
+
+.searchbar{ 
+    
+    flex: 1;
+    height: 37px;
+    padding-left: 10px;
+    border-width: 1px;
+    border-color: rgb(192, 192, 192);    
+    border-style: solid;
+    box-shadow: inset 1px 2px 5px rgba(0,0,0,0.05);
+}
+.searchbar::placeholder{
+    font-family: Roboto,arial;
+    font-size: 18px;
+    padding-left: 0px;   
+    align-items: center;
+    }
