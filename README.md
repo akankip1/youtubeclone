@@ -1,4 +1,4 @@
-# youtubeclone
+# YouTube Clone
 ####  Author: Ashrit Kankipati
 ####  E-mail: akankip1@binghamton.edu
 
